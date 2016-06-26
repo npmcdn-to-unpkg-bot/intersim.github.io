@@ -113,7 +113,7 @@ hr {
 }
 
 /* mobile styles */
-@media (min-device-width: 320px) and (max-device-width: 567px) {
+@media and (min-device-width: 320px) and (max-device-width: 567px) {
   h1 {
     font-size: 6rem;
   }
