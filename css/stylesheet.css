@@ -79,13 +79,29 @@ a:visited {
   max-width: 500px;
 }
 
+hr {
+  visibility: hidden;
+}
+
 /* mobile styles */
 @media (min-device-width: 375px) and (max-device-width: 667px) {
+  h1 {
+    font-size: 90px;
+  }
+
+  nav {
+    font-size: 36px;
+  }
+
   .container {
     width: 90%;
   }
 
   .screenshot {
     max-width: 850px;
+  }
+
+  hr {
+    margin-bottom: 15px;
   }
 }
