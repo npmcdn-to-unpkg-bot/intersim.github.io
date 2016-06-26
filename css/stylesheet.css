@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  width: 67%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -38,6 +38,7 @@ h1 {
 h4 {
   font-weight: 500;
   font-size: 18px;
+  margin-top: 0;
 }
 
 p {
@@ -84,7 +85,7 @@ hr {
 }
 
 /* mobile styles */
-@media (min-device-width: 375px) and (max-device-width: 666px) {
+@media (min-device-width: 320px) and (max-device-width: 666px) {
   h1 {
     font-size: 90px;
   }
