@@ -30,6 +30,7 @@ nav ul li {
 }
 
 #fixed-nav {
+  z-index: 1;
   background-color: #fff;
   width: 100vw;
 }
