@@ -77,11 +77,11 @@ a:link {
 }
 
 a:hover {
-  color: deeppink;
+  color: #FF1493;
 }
 
 a:active {
-  color: coral;
+  color: #FF8C00;
 }
 
 a:visited {
