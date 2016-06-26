@@ -11,9 +11,6 @@
 
   <title>Emily Intersimone - Software Engineer</title>
 
-  <!-- jQuery -->
-  <script src="./js/jquery.js" defer></script>
-
   <script src="https://use.fontawesome.com/337ee3c2a3.js"></script>
   <link rel="shortcut icon" type="image" href="./img/fa-heart.png" />
   <link href="https://npmcdn.com/basscss@8.0.1/css/basscss.min.css" rel="stylesheet">
@@ -30,6 +27,7 @@
       <h1 class="mb0">Emily Intersimone</h1>
     </div>
 
+    <!-- first nav -->
     <nav role="navigation">
       <ul>
         <li>
@@ -42,6 +40,18 @@
           <a href="#contact">Contact</a>
         </li>
       </ul>
+    </nav>
+
+    <!-- second nav -->
+    <nav id="fixed-nav" role="navigation" class="hide-nav flex justify-between items-baseline fixed top-0 left-0">
+      <div>
+        <h2 class="m2 p0">Emily Intersimone</h2>
+      </div>
+      <div>
+        <a class="mr2" href="#projects">Projects</a>
+        <a class="mr2" href="#about">About</a>
+        <a class="mr1" href="#contact">Contact</a>
+      </div>
     </nav>
 
     <a name="projects"></a>
@@ -116,6 +126,9 @@
     </footer>
 
   </div>
+
+  <script src="./js/jquery.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
 
 </body>
 
