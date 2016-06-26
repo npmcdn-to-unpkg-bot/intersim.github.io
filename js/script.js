@@ -1,7 +1,11 @@
 $(window).scroll(function() {
     if ($(window).scrollTop() > 100) {
-        $('#fixed-nav').removeClass('hide-nav');
+        $('#fixed-nav').fadeIn('fast', function () {
+          $(this).removeClass('hide-nav');
+        })
     } else {
-        $('#fixed-nav').addClass('hide-nav');
+        $('#fixed-nav').fadeOut('fast', function () {
+          $(this).addClass('hide-nav');
+        })
     }
 });
