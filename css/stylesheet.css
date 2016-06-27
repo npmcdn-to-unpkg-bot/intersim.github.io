@@ -114,9 +114,28 @@ hr {
 }
 
 /* mobile styles */
-@media only screen and (max-width: 768px) {
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 768px) 
+  and (orientation: portrait) {
+  html {
+    font-size: 18px;
+  }
+
   h1 {
-    font-size: 2.5rem;
+    font-size: 5rem;
+    padding: 0;
+    margin: 2rem 0 0 0;
+  }
+
+  #nav-links li {
+    font-size: 2rem;
+    padding: 0 1rem 1rem 1rem;
+    margin: 0;
+  }
+
+  #fixed-nav {
+    font-size: 2rem;
   }
 
   #desktop-header {
@@ -124,6 +143,7 @@ hr {
   }
 
   #phone-header {
+    font-size: 3rem;
     display: inline-flex;
   }
 
@@ -136,6 +156,40 @@ hr {
   }
 
   .fa-lg {
-    font-size: 1.5rem !important;
+    font-size: 2.5rem !important;
+  }
+}
+
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 768px) 
+  and (orientation: landscape) {
+
+  html {
+    font-size: 18px;
+    background-color: red;
+  }
+
+  #nav-links li {
+    font-size: 1.1rem;
+    padding: 0 1rem 1rem 1rem;
+    margin: 0;
+  }
+
+  #fixed-nav {
+    font-size: 1rem;
+  }
+
+  #desktop-header {
+    display: none;
+  }
+
+  #phone-header {
+    font-size: 2rem;
+    display: inline-flex;
+  }
+
+  .screenshot {
+    width: 100%;
   }
 }
