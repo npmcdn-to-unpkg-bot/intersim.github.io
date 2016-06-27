@@ -105,6 +105,14 @@ hr {
   visibility: hidden;
 }
 
+.desktop-header {
+  display: inline-flex;
+}
+
+.phone-header {
+  display: none;
+}
+
 /* mobile styles */
 @media only screen and (max-width: 768px) {
   html {
