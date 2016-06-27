@@ -105,29 +105,25 @@ hr {
   visibility: hidden;
 }
 
-.desktop-header {
+#desktop-header {
   display: inline-flex;
 }
 
-.phone-header {
+#phone-header {
   display: none;
 }
 
 /* mobile styles */
 @media only screen and (max-width: 768px) {
-  html {
-    font-size: 18px;
-  }
-
   h1 {
     font-size: 2.5rem;
   }
 
-  .desktop-header {
+  #desktop-header {
     display: none;
   }
 
-  .phone-header {
+  #phone-header {
     display: inline-flex;
   }
 
